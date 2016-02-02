@@ -1,0 +1,27 @@
+<!doctype html>
+<html ng-app="myApp">
+
+<head>
+    <title>User Login and Sessions Signup</title>
+    <link rel="stylesheet" type="style/css" href="/static/css/style.css" />
+    <link rel="stylesheet" type="style/css" href="/static/css/index.css" />
+</head>
+<!--首页面-->
+
+<body>
+    <div class="header">
+        <img class="logo" src="/static/pic/11.jpg">
+        <a href="/user">Edit User</a>
+        <a href="/logout">Logout</a>
+        <a href="/login">Home</a>
+    </div>
+    <hr>
+    <div class="content" ng-controller="myController">
+        <h2>Welcome, <%= username %>!</h2>
+    </div>
+    <!-- <%= msg %> -->
+    <script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
+    <script src="/static/js/my_app.js"></script>
+</body>
+
+</html>

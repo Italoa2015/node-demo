@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>User Login and Sessions Signup</title>
+    <link rel="stylesheet" type="style/css" href="/static/css/style.css" />
+    <link rel="stylesheet" type="style/css" href="/static/css/signup.css" />
+</head>
+<!--注册页面-->
+
+<body>
+    <div class="header">
+        <img class="logo" src="/static/pic/11.jpg">
+        <a href="/user">Edit User</a>
+        <a href="/logout">Logout</a>
+        <a href="/login">Home</a>
+    </div>
+    <hr>
+    <div class="form-container">
+        <p class="form-header">Sign Up</p>
+        <form method="post">
+            <div class="form-content">
+                <label>Username:</label>
+                <input  class="input" type="text" name="username">
+                <br>
+                <label>Password:</label>
+                <input class="input" type="password" name="password">
+                <br>
+                <label>Email:</label>
+                <input class="input" type="email" name="email">
+                <br>
+                <input  class="button" type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+    
+    <!-- 
+    <hr>
+    <%= msg %> -->
+</body>
+
+</html>

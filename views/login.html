@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>User Login and Sessions</title>
+    <link rel="stylesheet" type="style/css" href="/static/css/style.css" />
+    <link rel="stylesheet" type="style/css" href="/static/css/login.css" />
+</head>
+<!--登录页面-->
+
+<body>
+    <div class="form-container">
+        <p class="form-header">Login</p>
+        <form method="POST">
+            <div class="form-content">
+                <label>Username:</label>
+                <input class="input" type="text" name="username">
+                <br>
+                <label>Password:</label>
+                <input class="input" type="password" name="password">
+                <br>
+            </div>
+            <div class="ctl-btn">
+                <img class="logo" src="/static/pic/11.jpg" />
+                <input  class="button input" type="submit" value="login">
+                <!----><a class="signup" href="/signup">Sign Up</a>
+            </div>
+        </form>
+    </div>
+    <hr>
+   <!--<span>输出：</span>-->
+    <div class="output">
+        <%= msg %>
+    </div>
+</body>
+
+</html>

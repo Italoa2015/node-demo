@@ -1,0 +1,20 @@
+/*控制表单框位置*/
+.form-container{
+	width: 30%;
+	margin-left: 35%;
+	margin-top: 5em;	
+}
+
+/*控制按钮的位置*/
+.button{
+	float: right;
+}
+
+/*控制删除按钮布局*/
+.del{
+	float: left;
+	margin-left: 8em;
+}
+
+
+

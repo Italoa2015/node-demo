@@ -1,0 +1,15 @@
+/*控制按钮的位置*/
+.ctl-btn {
+    width: 60%;
+    height: 70px;
+    border: 0px solid;
+    margin-top: 1em;
+    margin-left: 20%;  
+}
+
+/*控制表单框位置*/
+.form-container{
+	width: 30%;
+	margin-left: 35%;
+	margin-top: 5em;	
+}

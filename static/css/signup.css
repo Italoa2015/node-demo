@@ -1,0 +1,12 @@
+/*控制表单框位置*/
+.form-container{
+	width: 30%;
+	margin-left: 35%;
+	margin-top: 5em;	
+}
+
+/*布局注册按钮位置*/
+.button{
+	margin-left: 40%;
+	margin-top: 1em;
+}
