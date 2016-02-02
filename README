@@ -1,3 +1,4 @@
+This is a demo web project which is developing by nodeJs+AngularJs+mongoDB.And it is continue....developing.
 1.demo包含用户注册、登录验证、信息修改、删除用户等。
 2.前台,样式使用纯html+css,数据使用angularJs来向后台发送请求获取用户信息,并双向绑定数据,校验输入的值。通过表单、超链接向后台发起POST/GET请求。
 3.服务器方面,使用node的express模块配置http服务器,配置web请求路由,配置视图模板引擎。
