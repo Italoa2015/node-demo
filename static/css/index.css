@@ -1,11 +1,3 @@
-/*定义头部内容布局*/
-.header a{
-	float: right; 	
-	margin-right: 2em; 
-	margin-top: 1.2em;
-	font-size: 20px;
-}
-
 /*中间内容*/
 h2{
     text-align: center;

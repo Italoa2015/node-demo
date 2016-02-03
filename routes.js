@@ -67,16 +67,12 @@ module.exports = function(app) {
 
     // 注册
     app.post('/signup', users.signup);
-
     // 更新用户
     app.post('/user/update', users.updateUser);
-
     // 删除用户
     app.post('/user/delete', users.deleteUser);
-
     // 登录
     app.post('/login', users.login);
-
     // 用户信息
     app.get('/user/profile', users.getUserProfile);
 

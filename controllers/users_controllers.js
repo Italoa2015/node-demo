@@ -39,10 +39,10 @@ exports.signup = function(req, res) {
 // 登录
 exports.login = function(req, res) {
     User.findOne({
-
+        username:req.body.username
     }).exec(function(err, user) {
         if (!user) {
-
+          err = 'User Not Found.';
         } else if (user.hashed_password === hashPW(req.body.password.toString())) {
             req.session.regenerate(function() {
                 req.session.user = user.id;

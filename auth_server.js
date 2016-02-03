@@ -57,10 +57,10 @@ app.use(expressSession({
     store: new mongoStore({
         host: 'localhost',
         port: '27071',
-        url: 'mongodb://localhost/blog',
+        url: 'mongodb://localhost/MyApp',
         db: 'MyApp'
     })
-}));
+})); 
 
 
 // 添加从./routes到Express服务器的路由

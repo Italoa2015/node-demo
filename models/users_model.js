@@ -14,5 +14,5 @@ var UserSchema = new Schema({
     hashed_password:String
 });
 
-// 编译模型
+// 生成模型
 mongoose.model('User',UserSchema);
