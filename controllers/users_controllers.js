@@ -23,6 +23,7 @@ exports.signup = function(req, res) {
     });
     user.set('hashed_password', hashPW(req.body.password));
     user.set('email', req.body.email);
+    user.set('color',req.body.color);
     user.save(function(err) {
         if (err) {
             res.sessor.error = err;
@@ -84,8 +85,7 @@ exports.updateUser = function(req, res) {
             _id: req.session.user
         })
         .exec(function(err, user) {
-            user.set('email', req.body.email);
-            user.set('color', req.body.bolor);
+            user.set('color', req.body.color);
             user.save(function(err) {
                 if (err) {
                     res.sessor.error = err;
@@ -94,7 +94,10 @@ exports.updateUser = function(req, res) {
                 }
                 res.redirect('/user');
             });
+            console.log(user);
         });
+                    //console.log(req.body);
+            //console.log(req.session);
 };
 
 // 删除用户

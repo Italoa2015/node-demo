@@ -10,7 +10,7 @@ var express = require('express');
 // 方法接收一个express对象
 module.exports = function(app) {
     //  获取到与数据库交互的模块对象
-    var users = require('./controllers/users_controllers');
+    var users = require('./controllers/users_controller');
     app.use('/static', express.static('./static')).use('/lib', express.static('../'));
 
     // 不带路径，访问系统

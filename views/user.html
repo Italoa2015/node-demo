@@ -21,10 +21,10 @@
         <form method="post" action="/user/update">
             <div class="form-content">
                 <label>Username:</label>
-                <input class="input" type="text" name="username" ng-model="user.username" disabled>
+                <input class="input" type="text" name="username" ng-model="user.username" ng-readonly="true" disabled>
                 <br>
                 <label>Email:</label>
-                <input class="input" type="email" name="email" ng-model="user.email">
+                <input class="input" type="email" name="email" ng-model="user.email" ng-readonly="true">
                 <br>
                 <label>Favorite Color:</label>
                 <input class="input" type="text" name="color" ng-model="user.color">
