@@ -63,8 +63,7 @@ app.use(expressSession({
 })); 
 
 
-// 添加从./routes到Express服务器的路由
-require('./routes')(app);
+require('./configRoutes.js')(app);
 
 
 // 监听80端口
