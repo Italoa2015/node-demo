@@ -15,7 +15,7 @@ This is a demo web project which is developing by nodeJs+AngularJs+mongoDB.And i
 
 7.其他方面，使用body-parser中间件在全局处理POST请求，把请求正文中的JSON数据解析为req.body属性。使用crypto模块对密码进行加密。
 
-
+8.
 
 
 
