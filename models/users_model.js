@@ -16,3 +16,4 @@ var UserSchema = new Schema({
 
 // 生成模型
 mongoose.model('User',UserSchema);
+//
