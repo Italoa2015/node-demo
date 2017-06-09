@@ -1,5 +1,3 @@
-This is a demo web project which is developing by nodeJs+AngularJs+mongoDB.And it is in developing...
-
 1.demo包含用户注册、登录验证、信息修改、删除用户等。
 
 2.前台方面,样式使用纯html+css,数据使用angularJs来向后台发送请求获取用户信息,并双向绑定数据,校验输入的值。通过表单、超链接向后台发起POST/GET请求。
@@ -11,11 +9,10 @@ This is a demo web project which is developing by nodeJs+AngularJs+mongoDB.And i
 
 5.静态文件方面，express服务器通过内置的static中间件以流式处理对静态文件的GET请求。
 
-6.模块方面，遵守COMMONJS规法对外发布模块。
+6.模块方面，遵守COMMONJS规范对外发布模块。
 
 7.其他方面，使用body-parser中间件在全局处理POST请求，把请求正文中的JSON数据解析为req.body属性。使用crypto模块对密码进行加密。
 
-8.
 
 
 
